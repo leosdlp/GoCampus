@@ -1,0 +1,100 @@
+.col-3{
+    text-align: center;
+    background-color: #f3f2f2;
+    border:1px solid grey;
+    border-radius:.5rem;
+    padding:.5rem;
+    place-content: center;
+    user-select: none;
+    width:25%;
+    margin:auto;
+  }
+  
+  h1{
+    text-align: center;
+    color:rgb(223, 109, 44);
+  }
+  
+  .row{
+    gap:2rem;
+    place-content: center;
+  }
+  
+  .buttons{
+    place-content: center;
+  }
+  
+  .container{
+    margin-top: 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  button{
+    border:1px solid grey;
+    border-radius: .5rem;
+  }
+  
+  .infos{
+    place-content: center;
+  }
+  
+  input,select{
+    border:1px solid grey;
+    border-radius:.5rem;
+  }
+  
+  .col-6{
+    margin-bottom:1.5rem;
+    margin-top:1.5rem;
+  }
+  
+  .filters{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  option{
+    color:rgb(223, 109, 44);
+  }
+
+  .ajout {
+    background-color:rgb(223, 109, 44);
+    color:white;
+  }
+
+  .ajout:hover {
+    background-color:rgb(210, 87, 15);
+    color:white;
+    cursor: pointer;
+  }
+  
+  .true {
+    background-color:rgb(185, 230, 185);
+  }
+  
+  .false {
+    background-color:rgb(223, 178, 178);
+  }
+  
+  /* État initial, caché */
+  .hidden {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.5s ease;
+    display: block;
+  }
+  
+  /* État visible avec transition */
+  .visible {
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.5s ease, height 0.5s ease;
+    display:none;
+  }
+  
+  button:hover {
+    background-color: #dadada;
+  }
+  
